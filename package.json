@@ -1,0 +1,29 @@
+{
+  "name": "sephora_scrape_in_store_purchases",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/scrape.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/scrape.js",
+    "scrape": "pnpm run build && pnpm run start"
+  },
+  "keywords": [
+    "scrape",
+    "sephora",
+    "in-store",
+    "purchases",
+    "puppeteer",
+    "typescript"
+  ],
+  "author": "Vivian Phung",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "puppeteer": "^22.4.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.2"
+  }
+}
